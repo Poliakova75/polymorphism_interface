@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements Serviced {
+public class Car extends VehicleWithEngine implements Serviced {
     private String color;
     private String bodyType;
 

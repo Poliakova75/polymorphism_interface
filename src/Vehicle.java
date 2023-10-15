@@ -1,4 +1,4 @@
-public class Vehicle implements Serviced {
+public abstract class Vehicle  {
     private String modelName;
     private int wheelsCount;
 
@@ -20,12 +20,8 @@ public class Vehicle implements Serviced {
 
         System.out.println("Меняем покрышку");
     }
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
 
-    @Override
-    public void check() {
 
-    }
+    public abstract void check();
 }
+

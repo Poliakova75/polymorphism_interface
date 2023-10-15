@@ -1,4 +1,4 @@
-public class Truck extends Vehicle implements Serviced{
+public class Truck extends VehicleWithEngine implements Serviced{
     private int loadCapacity;
     private int bodyLength;
 
